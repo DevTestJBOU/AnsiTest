@@ -1,7 +1,7 @@
 # uname.yml
 
 ---
-  - hosts: localhost
+  - hosts: fv-az14
     tasks:
       - name: Get OS type
         shell: uname
